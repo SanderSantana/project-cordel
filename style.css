@@ -1,0 +1,119 @@
+@charset "UTF-8" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+@font-face {
+                font-family: 'tangerine' ; src: url('Inventory/Fonts/tangerine/Tangerine-Regular.ttf') format(truetype) ; 
+} 
+
+@font-face {
+    font-family: 'Itim' ; src:url('Inventory/Fonts/Itim/Itim-Regular.ttf') format(truetype) ; 
+}
+
+:root {
+    --font1: Baskervville ; 
+    --font2: tangerine ;
+    --font3: Itim; 
+}
+
+
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: var(--font1);
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-family: var(--font2);
+    font-weight: lighter;
+    font-size: 9vw;
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: var(--font1);
+}
+
+section {
+    padding-left: 70px;
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+
+
+section p { 
+    font-family: var(--font3);
+    line-height: 2.5em;
+    font-size: 3vw;
+    width: 50vw;
+}
+
+section.stanza1 {
+    padding-bottom: 120px;
+}
+
+section.stanza2 {
+    background-image: url(Inventory/Images/1-\(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.stanza2 p {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    padding: 10px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+section.stanza3 p {
+    padding-bottom: 100px;
+    display: inline-block;
+}
+
+section.stanza4 {
+    background-image: url(Inventory/Images/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.stanza4 p {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    padding: 10px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+
+section.laststanza {
+    padding-bottom: 110px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
